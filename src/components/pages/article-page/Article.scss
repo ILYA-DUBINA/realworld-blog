@@ -1,0 +1,51 @@
+.article-tags{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.article-text{
+  margin: 14px 0 25px 0;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.authorization__buttons{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: right;
+
+  margin-top: 30px;
+}
+.authorization__button-delete,
+.authorization__button-edit{
+  position: relative;
+  
+  padding: 6px 17px;
+  margin-right: 12px;
+  border: 1px solid #F5222D;
+  border-radius: 5px;
+
+  color: #F5222D;
+
+  background-color: #ffffff;
+
+  cursor: pointer;
+}
+.authorization__button-edit{
+  padding: 6px 19px;
+  border: 1px solid #52C41A;
+ 
+  color: #52C41A;
+}
+.authorization__button-delete:hover{
+  color: #ffffff;
+
+  background-color: #F5222D;
+}
+.authorization__button-edit:hover {
+  color: #ffffff;
+
+  background-color: #52C41A;
+}

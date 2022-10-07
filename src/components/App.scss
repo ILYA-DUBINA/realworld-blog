@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: local("Inter"), url(../fonts/Inter-Regular.otf) format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+
+  background-color: #EBEEF3;
+}
+
+.container {
+  width: 100%;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+}
+.container__inside{
+  max-width: 971px;
+
+  margin: 0 auto;
+  padding: 26px 15px 18px 15px;
+}

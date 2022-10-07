@@ -1,0 +1,37 @@
+.header__createArticle {
+  display: inline-block;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  padding: 6px 10px;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+
+  color: #52c41a;
+}
+.header__createArticle:hover{
+  color: #ffffff;
+
+  background-color: #52c41a;
+}
+.linksAuthorization__button {
+  border: none;
+
+  background-color: #ffffff;
+
+  cursor: pointer;
+}
+.linksAuthorization__user{
+  display: flex;
+  align-items: center;
+}
+.linksAuthorization__avatar{
+  position: relative;
+  
+  top: 0px;
+}

@@ -1,0 +1,38 @@
+.header{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5rem;
+  line-height: 2.33rem;
+  letter-spacing: 0em;
+  text-align: left;  
+
+  padding: 16px 22px 13px 22px;
+
+  vertical-align: middle;
+  
+  color: #000000D9;
+
+  background-color: #ffffff;
+}
+.header__projectName-text{
+  font-size: 1.5rem;
+  line-height: 2.33rem;
+  letter-spacing: 0em;
+  text-align: left;
+
+  white-space: nowrap;
+
+  padding: 10px;
+
+  color: #000000D9;
+}
+.header__projectName-text:hover{
+  outline: 1px solid #52c41a;
+
+  padding: 10px;
+  border-radius: 5px;
+}

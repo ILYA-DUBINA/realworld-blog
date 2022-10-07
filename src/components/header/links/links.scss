@@ -1,0 +1,38 @@
+.header__autorization{
+  width: 100%;
+  // max-width: 250px;
+
+  display: flex;
+  justify-content: flex-end;
+  // justify-content: space-between;
+  align-items: center;
+
+  vertical-align: middle;
+}
+
+.header__singIn,
+.header__singUp{
+  display: inline-block;
+
+  font-size: 1.5rem;
+  line-height: 2.33rem;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+
+  white-space: nowrap;
+
+  padding: 8px 18px 8px 18px;
+  border-radius: 5px;
+
+  color: #000000D9;
+}
+.header__singIn:hover,
+.header__singUp:hover{
+  outline: 1px solid #52C41A;
+  
+  color: #52C41A;
+}
+.header__link:nth-child(2){
+  margin: 0 27px;
+}
